@@ -1,0 +1,128 @@
+---
+title: "Summary of FEDECOM_Proposal"
+format:
+  html:
+    code-fold: true
+jupyter: python3
+---
+
+The key point is to understand what this project is aiming to do, what is to be done and what I can contribute.
+
+## Motivation & Vision
+
+### Demand
+The unsatisfactory status of environmental and climate change indicators across the world -> increase the operational costs & capital investments for the energy security in EU -> predict, control and manage intermittent energy sourcing for highly variable load profiles **(load curves)**
+
+The core problem is the lack of intergration in local energy systems.
+
+### Solution
+Sector coupling across energy vectors to introduce additional degrees to introduce additional degrees of freedom for energy conversion and dispatching.
+
+[**What is Sector coupling?**](https://www.wartsila.com/insights/article/4-questions-on-sector-coupling)
+Sector coupling refers to the close integration of major energy-consumers, such as the heating, transportation, and industrial sectors, with the power producing sector.
+
+"energy dispatch" = "energy distribution adjustment"
+
+#### Major carrier
+FEDECOM pursues the idea of **electricity becoming the leading energy carrier**, with power grids as the backbone for the decarbonisation of all energy sectors
+
+#### direct electrification - direct use
+#### indirect electrification - power to X
+
+FEDECOM will couple RES, storage and power-to- technologies(same concept with power to X) availale in the pilots (community assets) to ensure efficient, stable and reliable grid operation.
+
+FEDECOM will deliver a scalable and adaptable **cloud-based platform** composed of **analytical, modelling and optimization services** for **planning, supervision and control** of **integrated** local energy systems
+
+### The platform
+FEDECOM will leverage a **multi-layered federated “System of Systems” (SoS) approach** ((privacy preserving)[**distributed optimization**](https://en.wikipedia.org/wiki/Distributed_constraint_optimization) and analytics)
+
+FEDECOM will firstly conduct a systematic assessment of (countryspecific) operational challenges for integration across RES based energy systems, and deliver a system planning toolbox with consolidated life-cycle assessment methodology for sector coupling.
+
+As one of the core R&D contributions of the project, FEDECOM will integrate, advance and deploy a cloud-based platform hosting a set of analytical services with predictive, modelling and optimization capabilities to enable cost-optimised and flexible energy system of systems (SoS), leveraging multi-user energy exchange and cross-vector optimization.
+
+**measure - forecast - optimise - control** 
+energy savings, reduction of GHG, energy cost reduction
+
+Verified in 3 real large-scale pilots: Spanish Virtual Green H2 Federation, Swiss Residential Hydropower Federation and BENElux cross-country eMobility Federation
+
+## Excellence
+### Objectives and ambition
+
+- GO1: Integrate exsiting and emerging ICT tools, deploy cloud-based solution, integrate energy systemsbased on sector coupling, distributed generation and storage, high demand flexibility services
+- GO2: validate with 3 large-scale pilots
+- GO3: develop plans for 3 follower communities
+
+#### STO
+STO 1. enable energy sector coupling through optmised operations and intergration of local energy systems.
+
+STO 2. Increase local RES hosting capacity via improved energy asset scheduling and cross-vector integration.
+
+STO 3: Unlock the demand-side flexibility across federated energy communities to enhance the overall grid operation.
+
+**STO 4: Improve long-term planning of sector coupling and integration with RES production sites.**
+
+FEDECOM will deliver a comprehensive system planning toolbox, **EnergyScope TD** will be used.
+
+energy dispatch model will be developped and coupled with **EnergyScope TD**
+
+*Actions  and projects outcomes:*
+ 
+ - Deploy long-term planning tool based on the EnergyScope TD model
+
+ - Provide optimal design of the system (technology selection, sizing, location)
+
+ - Develop energy dispatch model 
+
+ - Couple with EnergyScope MC for multi-cell planning and assessment
+
+**STO5: Develop consolidated methodology to evaluate interaction and flexibility of coupled energy networks.**
+
+FEDECOM will incorporate a consolidated life-cycle assessment methodology to evaluate impact on OPEX and CAPEX, as well as environmental impact, owing to the joint flexibility of integrated energy vectors, energy storage and relevant conversion processes. MCDA will be used.
+
+*Actions and project outcomes:*
+
+ - Develop a life-cycle assessment methodology of integrated networks
+
+ - Integrate techno-economic (LCC) and environmental (LCA) analyses
+
+ - Evaluate joint flexibility potential of energy conversion and storage
+
+ - Incorporate MCDA for ranking of system configuration alternatives
+
+STO6: Large-scale pilots as case studies and early adopters.
+
+STO7: Showcase effective business models upon multi-stakeholder open marketplace.
+
+#### Expected results
+
+ - planning toolbox
+ - consolidated methodology
+ - MCDA recommender
+
+## Takeaway
+
+The FEDECOM is a huge sector coupling project and it aims to develop a cloud-based platform following the multilayered federated SoS approach which could do iterative measurement - prediction - optimization - controlling loop in order to reduce the cost and environmental impacts meanwhile fullfill the demands profile. 
+
+We mainly focuses on the optimization part. We are supposed to develop a planning toolbox 
+
+
+
+For a demonstration of a line plot on a polar axis, see @fig-polar.
+
+```{python}
+#| label: fig-polar
+#| fig-cap: "A line plot on a polar axis"
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+r = np.arange(0, 2, 0.01)
+theta = 2 * np.pi * r
+fig, ax = plt.subplots(
+  subplot_kw = {'projection': 'polar'} 
+)
+ax.plot(theta, r)
+ax.set_rticks([0.5, 1, 1.5, 2])
+ax.grid(True)
+plt.show()
+```
