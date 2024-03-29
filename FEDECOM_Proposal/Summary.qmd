@@ -103,26 +103,5 @@ STO7: Showcase effective business models upon multi-stakeholder open marketplace
 
 The FEDECOM is a huge sector coupling project and it aims to develop a cloud-based platform following the multilayered federated SoS approach which could do iterative measurement - prediction - optimization - controlling loop in order to reduce the cost and environmental impacts meanwhile fullfill the demands profile. 
 
-We mainly focuses on the optimization part. We are supposed to develop a planning toolbox 
+We mainly focuses on the optimization part. We are supposed to develop a planning toolbox based on Energyscope TD for performing LCC and LCA assessment of different RES-based system configurations, integrate consolidated life-cycle assessment methodology and incorporate MCDA for ranking of system configuration alternatives.
 
-
-
-For a demonstration of a line plot on a polar axis, see @fig-polar.
-
-```{python}
-#| label: fig-polar
-#| fig-cap: "A line plot on a polar axis"
-
-import numpy as np
-import matplotlib.pyplot as plt
-
-r = np.arange(0, 2, 0.01)
-theta = 2 * np.pi * r
-fig, ax = plt.subplots(
-  subplot_kw = {'projection': 'polar'} 
-)
-ax.plot(theta, r)
-ax.set_rticks([0.5, 1, 1.5, 2])
-ax.grid(True)
-plt.show()
-```
