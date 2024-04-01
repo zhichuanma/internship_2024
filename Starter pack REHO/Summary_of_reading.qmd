@@ -86,3 +86,11 @@ $$
 $$
 \forall b \in B, \forall u \in U, \forall p \in P, \forall t \in T
 $$
+
+f means the unit size; $F_{max}$ and $F_{unit}$ refer to the upper bound and lower bound of the unit installations; y is a binary variable which expresses whether to purchase the unit or not.
+
+#### Energy balances
+
+$$
+\dot{E}^{gr, +}_{b,q,t} + \Sigma
+$$
