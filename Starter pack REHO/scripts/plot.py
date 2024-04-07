@@ -1,4 +1,4 @@
-from wrapper_amplpy.plotting import plotting, sankey
+wrapper_amplpy.plotting import plotting, sankey
 import pandas as pd
 
 results = pd.read_pickle('results/example_7a.pickle')

@@ -92,5 +92,13 @@ f means the unit size; $F_{max}$ and $F_{unit}$ refer to the upper bound and low
 #### Energy balances
 
 $$
-\dot{E}^{gr, +}_{b,q,t} + \Sigma
+\mathbf{\dot{E}^{gr, +}_{b,p,t}} + \mathbf{\Sigma_{u \in U} \dot{E}^{+}_{b, u, p, t}} = \mathbf{\dot{E}^{gr, -}_{b, p, t}} + \mathbf{\Sigma_{u \in U} \dot{E}^{-}_{b, u, p, t}} + \dot{E}^{B, -}_{b,p,t}
+$$
+
+$$
+\mathbf{\dot{H}^{gr, +}_{b,p,t}} = \mathbf{\Sigma_{u \in U} \dot{H}^{+}_{b, u, p, t}}
+$$
+
+$$
+\forall b \in B, \forall p \in P, \forall t \in T
 $$

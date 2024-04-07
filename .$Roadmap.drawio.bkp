@@ -1,0 +1,140 @@
+<mxfile host="Electron" modified="2024-04-04T16:15:28.245Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="vVfZJN-a5pSXmZIZbx8c" version="21.2.1" type="device">
+  <diagram name="Page-1" id="CMEaHwI43TF5UFnff1LS">
+    <mxGraphModel dx="3267" dy="1407" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-49" value="&lt;b&gt;Preparations&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cdeb8b;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="70" width="500" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-1" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Obtain the optimized results from pilots data collected&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="950" y="300" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-3" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;April&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="90" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-4" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;May&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="90" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-5" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;June&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="210" y="90" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-6" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;July&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="510" y="90" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-7" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;August&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="820" y="90" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-8" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;September&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1130" y="90" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;REHO&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-560" y="170" width="157" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-12" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;LCA&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-563" y="280" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-13" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Multi-criteria Optimization&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a20025;strokeColor=#6F0000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-561.5" y="390" width="158.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Multi-criteria analysis based on Life-cycle assessment of a positive energy district accounting for a country context – application to real case study’.&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="10" width="1740" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3gOCMNF8MpdkcXzCCnj-16" target="Q3gOCMNF8MpdkcXzCCnj-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="280" />
+              <mxPoint x="390" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-16" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Methodology enhancement&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="140" y="260" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3gOCMNF8MpdkcXzCCnj-17" target="Q3gOCMNF8MpdkcXzCCnj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-17" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;LCA database&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="140" y="320" width="330" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3gOCMNF8MpdkcXzCCnj-18" target="Q3gOCMNF8MpdkcXzCCnj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-18" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Master REHO&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="175" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-19" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;&lt;b&gt;Write master thesis and prepare for the final presentation&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="520" y="150" width="860" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3gOCMNF8MpdkcXzCCnj-20" target="Q3gOCMNF8MpdkcXzCCnj-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="305" />
+              <mxPoint x="-90" y="280" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3gOCMNF8MpdkcXzCCnj-20" target="Q3gOCMNF8MpdkcXzCCnj-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-90" y="305" />
+              <mxPoint x="-90" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-20" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Understanding the methodology of LCA(REHO)&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="285" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-21" value="&lt;b&gt;Kick-off presentation&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-250" y="130" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-26" value="&lt;b&gt;04/04&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-420" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-27" value="&lt;b&gt;25/09&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="90" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3gOCMNF8MpdkcXzCCnj-32" target="Q3gOCMNF8MpdkcXzCCnj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-32" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Integration of REHO and LCA&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="390" y="220" width="350" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3gOCMNF8MpdkcXzCCnj-33" target="Q3gOCMNF8MpdkcXzCCnj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-33" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Redefine objective function&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="270" y="395" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3gOCMNF8MpdkcXzCCnj-34" target="Q3gOCMNF8MpdkcXzCCnj-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-34" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Literature review for multi-criteria optimization&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-360" y="395" width="500" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-39" value="&lt;b&gt;Data from pilots&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="530" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3gOCMNF8MpdkcXzCCnj-42" target="Q3gOCMNF8MpdkcXzCCnj-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-42" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Case study&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6a00ff;strokeColor=#3700CC;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="-563" y="500" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="Q3gOCMNF8MpdkcXzCCnj-43" target="Q3gOCMNF8MpdkcXzCCnj-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-43" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Pilot datasets&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
+          <mxGeometry x="670" y="505" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-50" value="&lt;b&gt;Development&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="140" y="70" width="720" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="Q3gOCMNF8MpdkcXzCCnj-51" value="&lt;b&gt;Application and analysis&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffcccc;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="860" y="70" width="520" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

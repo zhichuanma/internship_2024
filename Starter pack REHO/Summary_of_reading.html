@@ -165,7 +165,13 @@ window.Quarto = {
 <section id="energy-balances" class="level4">
 <h4 class="anchored" data-anchor-id="energy-balances">Energy balances</h4>
 <p><span class="math display">\[
-\dot{E}^{gr, +}_{b,q,t} + \Sigma
+\mathbf{\dot{E}^{gr, +}_{b,p,t}} + \mathbf{\Sigma_{u \in U} \dot{E}^{+}_{b, u, p, t}} = \mathbf{\dot{E}^{gr, -}_{b, p, t}} + \mathbf{\Sigma_{u \in U} \dot{E}^{-}_{b, u, p, t}} + \dot{E}^{B, -}_{b,p,t}
+\]</span></p>
+<p><span class="math display">\[
+\mathbf{\dot{H}^{gr, +}_{b,p,t}} = \mathbf{\Sigma_{u \in U} \dot{H}^{+}_{b, u, p, t}}
+\]</span></p>
+<p><span class="math display">\[
+\forall b \in B, \forall p \in P, \forall t \in T
 \]</span></p>
 </section>
 </section>

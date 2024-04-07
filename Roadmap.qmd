@@ -1,0 +1,155 @@
+---
+title: "Roadmap explanatory notes"
+author:   
+  - Zhichuan MA 
+format: 
+ pdf:
+    toc: true
+    number-sections: true
+    colorlinks: true
+citation-package: biblatex
+bibliography: references.bib
+---
+
+# General description
+
+![Roadmap (2nd draft)](Roadmap_02draft.png)
+
+Generally the internship project is divided into 5 sections after having basic understanding of the FEDECOM proposal and InterPED project.
+
+The key output expected from this internship is **\textcolor{blue}{to get a LCA integrated REHO model which can do multi-cretiaria analysis based on real cases.}**
+
+Each small square in the background represents one day and it begins from 04/04/2024 to 25/09/2024. There are mainly 3 processes: **\textcolor{blue}{preparations, development, and applications}**
+
+This pdf is just a simple description of the roadmap (2nd draft).
+
+{{< pagebreak >}}
+
+# Preparations 
+
+Learning how to use the model will take around 1.5 months.
+
+## REHO (Learn how to use REHO)
+
+![Learn how to use REHO](Roadmap_files/REHO_master.png)
+
+The first thing to do is to be able to use the model and adapt it to my case study. Here are subtasks to achieve this milestone:
+
+### Subtasks
+1. Finish the reading of Starter pack REHO, inside there are 2 PhD thesis and some other reports, only browse **useful** parts, \textcolor{red}{try to contribute in REHO documentation};
+
+2. Finish understanding the codes: What are the model's inputs? What's the model's output? How are the optimization models? What are the constraints? What are the objectives?
+
+3.  Finish browsing the REHO website's content. 
+
+\textcolor{red}{In addition to this, I could think of some features I would like to implement and write(by hand) some physical equations that I could implement in the model. (e.g. a new technology) } 
+
+### Checkpoint
+This work will be examined by conducting **a case study with REHO**. \textcolor{red}{The case should be completely new.}
+
+## LCA (Understanding the methodology of LCA(REHO))
+
+![LCA understanding](Roadmap_files/LCA_understanding.png)
+
+While going through the "learn how to use REHO" section, it's important to understand how the Life Cycle Assessment (LCA) is done. Look closely at their method to see if it covers everything needed and is done correctly.
+
+If the LCA seems too simple or misses key points, think about how to make it better. This could mean suggesting changes to improve their current LCA or, if necessary, creating a new, more detailed LCA plan. The goal is to make sure the LCA gives a clear picture of environmental impacts in a way that's easy to understand and use.
+
+### Checkpoint
+
+The output which is to be supervised is an **introduction of their methodology** which will be written in text.
+
+## Multi-criteria optimization (Literature review for multi-criteria optimization) 
+
+![Multi-criteria optimization literature review](Roadmap_files/MCDA_lr.png)
+
+### Subtasks
+
+1. Thesis from UCLouvain and EPFL should be read in detail, especially:
+
+ - [Multi-criteria optimisation of an energy system and application to the Belgian case](https://dial.uclouvain.be/memoire/ucl/fr/object/thesis%3A33139) [@thesis:33139]
+ - [EnergyScope Pathway: An open-source model to optimise the energy transition pathways of a regional whole-energy system](https://dial.uclouvain.be/pr/boreal/object/boreal:283203) [@LIMPENS2024122501]
+ - [EnergyScope TD: A novel open-source model for regional energy systems (What is the difference between the pathway and TD)](https://www.sciencedirect.com/science/article/pii/S0306261919314163) [@LIMPENS2019113729]
+ - [Integration of Life Cycle Impact Assessment in Energy System Modelling](https://infoscience.epfl.ch/record/303482) [@Schnidrig:303482]
+
+These articles are collected during the time before my interview to write down my understanding of the PhD project, which should be read more deeply. And the last article is recommended by Gauthier, which was published on ECOS 2023.
+
+2. Articles by other institutions should also be read
+
+### Checkpoint
+
+The expected output of this process is to have a detailed introduction written for how to do LCA.
+
+{{< pagebreak >}}
+
+# Development
+
+The development is scheduled for 2.5 months (mid of May - beginning of August)
+
+## LCA (Methodology enhancement + LCA database)
+
+![LCA database and methodology enhancement](Roadmap_files/LCA_database_method.png)
+
+### Subtasks
+
+1. LCA literature review about how to deploy LCA framework for a positive energy district.
+
+2. LCA method enhancement.
+
+3. LCA database - develop a mathametical framework that can be implemented in REHO.
+
+### Checkpoints
+
+1. Introduce(write) and discuss about the methodology
+
+2. Show the matrix in csv or in other appropriate ways.
+
+## MSCD (Extend objective function (to account for several objects))
+
+![Extend objective function](Roadmap_files/obj_redefine.png)
+
+### Subtasks
+
+1. Define a physical model for implementing LCA
+
+2. Translate this model into a set of linear equations that could be implemented in REHO
+
+3. Implement it in REHO.
+
+### Checkpoints
+
+do the literature reviews and discuss and develop a brand new objective function which involves all other environmental impacts indicators.
+
+## Integration of REHO and LCA
+
+
+![Integration of REHO and LCA](Roadmap_files/integration.png)
+
+A upgraded model is expected.
+
+## Case study
+
+![Datas extracted from pilots](Roadmap_files/pilot_data.png)
+
+Get the datas from pilots by the end of June and then transform them into an implemented csv format which could be run by REHO.
+
+# Applications and analysis
+
+![Applications and analysis](Roadmap_files/analysis.png)
+
+For the applications and analysis, the transformed pilots' datasets will be treated as input and a multi-criteria analysis will be conducted. 2 months are assumed to finaliser the part.
+
+# Reporting
+
+![Building online documentation](Roadmap_files/reporting.png)
+
+It exsits through the whole internship period and the design for the methodology website will be based on github page.
+
+The opportunity for publications is to be discussed.
+
+Master thesis writing as well as presentation preparations will begin after the beginning of July. 
+
+![Master thesis writing](Roadmap_files/master_thesis.png)
+
+# Reference
+

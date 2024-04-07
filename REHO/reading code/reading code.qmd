@@ -1,0 +1,73 @@
+---
+title: "Week Conclusion"
+---
+
+# General conclusion
+
+This week I have begun to run and get familiar with REHO. 
+
+On Tuesday I attended a seminar by Prof.Francesco about acdemic writing skills for one whole day. 
+
+On Wednesday I had an online meeting with Arthur and Nicola who helped me get ready for the REHO. For the afternoon I read all the files in the documentation/data filefolder. For the night I helped my domestic friends do homework about machine learning.
+
+On Thursday morning I was reading the AMPL mod file of the model and discussed with Arthur. I realized there is no need to read all the documentations right now, I could read and understand it while I encounter the difficulties. Then I decided to directly run the scripts.
+
+After the use of REHO, in example filefolders there are several py files I could run:
+
+ - 3a_Read_csv
+ - 3i_Custom_profiles
+ - 4b_Progressive_scenarios_csv
+ - 5b_Facades_csv
+
+ 3i, 4b and 5b need a professional version of AMPL and I sent emails to Xavier to ask for help. Arthur told me he has a professional version (demo version is limited to 2000 constraints and variables). And after I used the professional version, they can also be run.
+
+And then I borrowed EPFL account from my past collegues and every script can be run.
+
+Some questions,
+
+1. In June, the datas the pilots provide are the building datas and weather datas?
+
+2. in scenario, what is EMOO, what means specific? Could you explain the results?
+
+And when I input 2 objectives it has errors, so it means it's not multi cretiaria, does it mean we need to modify its objective function?
+
+3. what's the difference between district and building when they are analysed?
+
+4. What is its LCA methodology?
+
+# REHO
+
+## data
+
+
+## model
+### ampl model
+#### units
+##### district_units
+###### evehicle.mod
+ - at districts level
+ - dis-/charging efficiencies
+ - **self-discharging** efficiency - self-running electrochemical processes which cause batteries (accumulators) to discharge more or less quickly, even if no electrical consumers are connected.
+ - dis-/charging limits
+
+**EV_plug_out**: represent probabilities or rates at which vehicles are plugged out (disconnected from the charger) and plugged in (connected to the charger) during different periods (Period) and times (Time[p])
+
+**param EV_displacement{u in UnitsOfType['EV'],p in Period, t in Time[p]} := EV_displacement_init[p] * EV_plugging_in[p,t] * n_vehicles;   # kW** means the displacement of the time t
+
+the problems are 
+
+1. yesterday Gauthier mentioned I could use different case studies but among the files, especially data filefolders I only find geneva data and some other swiss cities' ID
+2. do I need to browse all the files
+
+After the discussion of Arthur,
+
+No need to read all the files, just implement the model. And for the datas we now only have the datas for Geneve. (maybe other data files for other cities for weather. For the multi cretiaria, )
+
+After the use of REHO, in example filefolders there are several py files we could run:
+
+ - 3a_Read_csv
+ - 3i_Custom_profiles
+ - 4b_Progressive_scenarios_csv
+ - 5b_Facades_csv
+
+3i, 4b and 5b need a professional version of AMPL and I have sent emails to Xavier to ask for help. (demo version is limited to 2000 constraints and variables)

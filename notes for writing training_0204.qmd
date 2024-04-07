@@ -1,0 +1,80 @@
+---
+title: "Writing Training by Francesco"
+format: html
+---
+# Morning
+
+...
+- For some acronyms which is well known, there is no need to define
+# Why
+# Who
+# What?
+
+The main message you want to tell readers.
+
+The main message is controlled by the author.
+
+"we shouldnt give so much power to the reader."
+
+## So what (the interpretation for your results)
+ - give a message in a caption
+ - why -> how
+
+Estimating future costs and carbonfootprints of future PEMEC and SOEC manufacturing based on scale effect
+
+In the recent years and also the future, the net-zero emission target necessitates a significantly expanded deployment of clean technologies compared to their current utilization. *(Therefore, an integrated methodology for predicting the cost and CO2 evolution to be developped,)* Policy makers, consumers and producers are in need of a kind of analysis tools for precisely estimating the future potential of these technologies for their cost and carbon footprint evolution. This methodology bridges the gap by integrating life cycle assessment (LCA) and cost estimation methodologies, resulting in a comprehensive bottom-up model that simultaneously evaluates the cost and carbon footprint, with particular attention to the scaling effect. Then the methodology will be used in the cases of manufacturing of PEM and SOEC, which can be regarded as representitives of clean energy.
+
+# Paragragh
+
+head should be limited. min: 1 sentence; max: 3
+
+no more than 1/3 of the length of the paragragh
+
+**typical ways to start**: "A flowchart of the minimisation  process is presented in figure 4"
+
+never introduce new info in the body if it isnt mentioned in the header
+
+## priming reader
+## linguistic clue
+## explicit content
+
+head + body  + conclusion
+
+A predictive curve is displayed in this cost 
+
+
+
+ - skech out the points of your para
+
+ - write a couple of sentences that covers these points
+
+header : cost evolution of PEMEC and SOEC with annual produiction volume
+1. significance decrease in the manufacturing cost
+2. Starting from a production volume of 100 MW/y and increasing to 1000 MW/y, the unit cost for PEMEC drops from 184.5 $/kW to 96.6 $/kW, while SOEC costs decrease from 155.8 $/kW to 68.6 $/kW
+3. As evident from the figure, costs decrease rapidly when production volumes are below 500 MW/y, primarily due to the establishment of an exponential correlation between cost and volume
+4. once production exceeds 500 MW/y, this reduction rate slows down because the prices of certain materials reach their minimum values and cease to decrease with increasing volume. Instead, the reductions in non-material costs, such as labor and capital, become the dominant factors affecting the total costs.
+5. Furthermore, in the range where the volume exceeds 10,000 MW/y, the cost remains nearly constant, approaching the minimum marginal cost. The marginal cost represents the change in total cost that occurs when the quantity produced is increased – in other words, it is the cost of producing an additional quantity
+
+# Afternoon
+# Clarity
+## What readers expect
+
+Clear writing
+
+which comes the first, readers will pay more attention.
+
+**Dont write in the negative, write in the affirmative**
+
+Characters + verbs
+
+# Emphasis
+# Coherence
+ I have one pet dragon in my house. Its name is Lulu, which is given by my grandmom. Different from the western one, Lulu is a Chinese dragon who has a snake body, several birds' feet, horse's face and a kind heart. As dipicted in the fairy Chinese stories, it could fly without wings and do many impossible things. Despite his body is super large, he learned to zoom in and zoom out and is able to live wherever. The only thing limiting his development is loneliness because he is lack of a partner. My parents are busy with working, I am studying abroad, my grandma is too old to look after him...
+
+# conciseness
+
+only use nominalisation to link sentences
+
+Noun + noun + noun to deadly combination
+
+Weasel words (hedges) should be removed or kept control
