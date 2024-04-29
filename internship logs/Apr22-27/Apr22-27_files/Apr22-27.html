@@ -285,6 +285,8 @@ window.Quarto = {
 <h4 class="anchored" data-anchor-id="district-level-constraints">District-level constraints</h4>
 <p>Dantzig-Wolfe algorithm</p>
 <p>I spent some time on this algorithm. Basically it decomposed this question to sub problems according to buildings. It will solve the problem iteratively until it is convergent.</p>
+<p>Original metrics =&gt; master problem + sub problems</p>
+<p>sub problems will return information (base variables and corresbonding conlumns) to the master problem and master problem will update its information (objective function, constraints matrics and bases) and solve to get the dual variables. Dual variables will be given to the sub problems again to update their objective functions.</p>
 </section>
 <section id="grid-capacity" class="level4">
 <h4 class="anchored" data-anchor-id="grid-capacity">Grid Capacity</h4>
@@ -326,7 +328,101 @@ window.Quarto = {
 <h2 class="anchored" data-anchor-id="section-1">25/04/2024 - 26/04/2024</h2>
 <section id="scripts-reading" class="level3">
 <h3 class="anchored" data-anchor-id="scripts-reading">Scripts reading</h3>
+<p><strong>Combine the “package structure” in the official website</strong></p>
 <p><strong>Objective for scripts reading</strong>: Read the results filefolders and understand each function and parameter in these functions. Learn how to use these scripts.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Apr22-27_files/Diagram_REHO.svg" class="img-fluid figure-img"></p>
+<figcaption>Diagram of REHO architecture</figcaption>
+</figure>
+</div>
+<p>Indeed, based on the diagram, we have been able to see what are the model’s inputs and outputs, as well as its algorithm.</p>
+<section id="data" class="level4">
+<h4 class="anchored" data-anchor-id="data">data/</h4>
+<section id="elcom" class="level5">
+<h5 class="anchored" data-anchor-id="elcom">elcom/</h5>
+<p>id + commune + operator</p>
+</section>
+<section id="emissions" class="level5">
+<h5 class="anchored" data-anchor-id="emissions">emissions/</h5>
+<p><strong>Question: what are the meaning of the columns? And I also would like to know the source of these datas. Since they are different from what I see in the ecoinvent.</strong></p>
+</section>
+<section id="infrastructure" class="level5">
+<h5 class="anchored" data-anchor-id="infrastructure">infrastructure/</h5>
+<p>This filefolder contains a lot of information related to units. Nevertheless,</p>
+<ul>
+<li>in building_units.csv and district_units.csv, for the LCA part, they have 13 kinds of LCA indicators and for each indicator they use “xxx_1” &amp; “xxx_2”. I guess it means the “fixed environmental impacts” and “continuous environmental impacts”.</li>
+<li>in grids.csv, the demand cost for environmental impacts are nearly 0 compared to the supply cost.</li>
+<li>HP_parameters.txt is super confusing for the 1st column and 2nd column.</li>
+<li>storage_units.csv: everything related to lifecycle impacts is 0</li>
+</ul>
+<p><strong>Question: Same with last question</strong></p>
+</section>
+<section id="qbbuildings" class="level5">
+<h5 class="anchored" data-anchor-id="qbbuildings">QBbuildings/</h5>
+<p>Tried to log in but failed.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Apr22-27_files/database.png" class="img-fluid figure-img"></p>
+<figcaption>failure</figcaption>
+</figure>
+</div>
+</section>
+<section id="sia" class="level5">
+<h5 class="anchored" data-anchor-id="sia">SIA/</h5>
+<p>There are 2 csv files inside: 1 for properties for different types of rooms; 1 for the rooms compositions for different buildings. Everything is in French.</p>
+</section>
+<section id="skydome" class="level5">
+<h5 class="anchored" data-anchor-id="skydome">skydome/</h5>
+<p>irradiation data is based on the data in 2005.</p>
+</section>
+<section id="weather" class="level5">
+<h5 class="anchored" data-anchor-id="weather">weather/</h5>
+<p>datasets for weather.</p>
+</section>
+</section>
+<section id="model-1" class="level4">
+<h4 class="anchored" data-anchor-id="model-1">model/</h4>
+<pre class="{matlab}"><code>param penalty_ratio default 1e-6;
+var penalties default 0;
+
+subject to penalties_contraints:
+penalties = penalty_ratio * (Costs_inv + Costs_op + sum{k in Lca_kpi} lca_tot[k] +
+            sum{l in ResourceBalances,p in PeriodExtrem,t in Time[p]} (Network_supply[l,p,t] + Network_demand[l,p,t])) + Costs_cft;
+
+# objective functions
+minimize TOTEX:
+Costs_tot + Costs_grid_connection + penalties;
+
+minimize OPEX:
+Costs_op + Costs_grid_connection + penalties;
+
+minimize CAPEX: # the second term is added to correspond to objective set in design_cst
+Costs_inv + penalties;
+
+minimize GWP:
+GWP_tot + penalties;
+
+minimize Human_toxicity:
+lca_tot["Human_toxicity"] + penalties;
+
+minimize land_use:
+lca_tot["land_use"] + penalties;
+</code></pre>
+<ul>
+<li>In the objective functions, we choose a objective to optimize. It’s not like we optimize every objective together.</li>
+<li>Indeed the “+penalties” means the integration of LCA with the cost but for now the penalties are almost 0.</li>
+<li>Cost_cft is the comfort penalties.</li>
+</ul>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="Apr22-27_files/difference%20between%20district%20and%20building.png" class="img-fluid figure-img"></p>
+<figcaption>difference between districts and buildings</figcaption>
+</figure>
+</div>
+<p>input: - scenario: - objective (opex, capex, totex, …), with 2 objectives, you will draw a Pareto curve(indeed I am not sure if it’s pareto curve. There will be some things more like a sankey or ba) -</p>
+<p>To be continued</p>
+</section>
 </section>
 </section>
 
