@@ -1,6 +1,6 @@
-<mxfile host="Electron" modified="2024-04-06T17:46:33.182Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="m4d-4tfaBuTCx293t0QR" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2024-04-22T08:35:39.267Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="LQTb99oDUfInH9Oxpv-h" version="21.2.1" type="device">
   <diagram name="Page-1" id="CMEaHwI43TF5UFnff1LS">
-    <mxGraphModel dx="2885" dy="1180" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="1196" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,7 +126,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Q3gOCMNF8MpdkcXzCCnj-43" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Pilot datasets&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" parent="1" vertex="1">
-          <mxGeometry x="670" y="505" width="200" height="40" as="geometry" />
+          <mxGeometry x="410" y="505" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="Q3gOCMNF8MpdkcXzCCnj-50" value="&lt;b&gt;Development&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="140" y="70" width="720" height="20" as="geometry" />
@@ -208,8 +208,8 @@
         <mxCell id="RJUtZ5t80le3RNeQ5MNN-74" value="&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;Check point: introduce and discuss the methology&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="389" y="250" width="310" height="35" as="geometry" />
         </mxCell>
-        <mxCell id="RJUtZ5t80le3RNeQ5MNN-77" value="&lt;b&gt;&lt;font color=&quot;#3399ff&quot;&gt;Check point: extract the information from the datasets from pilots and transform them into csv files which can be implemented by REHO&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="555" y="470" width="430" height="30" as="geometry" />
+        <mxCell id="RJUtZ5t80le3RNeQ5MNN-77" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;Check point:&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;1. pilots of interPED (idealy the same pilot with Fedecom)&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;font color=&quot;#3399ff&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial; color: rgb(0, 0, 0);&quot;&gt;&lt;font color=&quot;#3399ff&quot;&gt;2.&amp;nbsp;Extend the case with fictive buildings/infrastructure to test the REHO features&lt;/font&gt;&lt;/b&gt;&lt;span style=&quot;background-color: initial; color: rgb(0, 0, 0); font-weight: normal;&quot;&gt;.&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;&lt;/b&gt;&lt;font color=&quot;#3399ff&quot;&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;&lt;b&gt;3. Bench-mark case study from REHO template&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="860" y="550" width="430" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RJUtZ5t80le3RNeQ5MNN-79" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;&lt;b&gt;Reporting&lt;/b&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="-563" y="610" width="160" height="50" as="geometry" />
@@ -227,6 +227,15 @@
         </mxCell>
         <mxCell id="RJUtZ5t80le3RNeQ5MNN-81" value="&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;Article publishing preparations&lt;/b&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" parent="1" vertex="1">
           <mxGeometry x="890" y="615" width="490" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UoH9qnngMrry1XdAkPYJ-3" value="" style="endArrow=none;dashed=1;html=1;rounded=0;entryX=0.323;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;strokeColor=#6ebf91;fillColor=#dae8fc;" edge="1" parent="1" target="Q3gOCMNF8MpdkcXzCCnj-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="670" as="sourcePoint" />
+            <mxPoint x="10" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UoH9qnngMrry1XdAkPYJ-5" value="&lt;b&gt;&lt;font color=&quot;#ff0000&quot;&gt;Discussion:&lt;br&gt;1. Current situation in REHO&lt;br&gt;2. Level we would like to reach&lt;br&gt;3.&amp;nbsp;Mathematical equations to add&lt;br&gt;4. Which technology are pilot specific, which one are the same whatever the geography&lt;/font&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="680" width="180" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

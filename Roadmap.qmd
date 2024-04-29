@@ -104,7 +104,7 @@ The development is scheduled for 2.5 months (mid of May - beginning of August)
 
 2. Show the matrix in csv or in other appropriate ways.
 
-## MSCD (Extend objective function (to account for several objects))
+## MCDA (Extend objective function (to account for several objects))
 
 ![Extend objective function](Roadmap_files/obj_redefine.png)
 
